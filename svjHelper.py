@@ -202,7 +202,7 @@ class svjHelper(object):
         if (type=="ALPplusMassInsertion"):
             lines = ['{:d}:addChannel = 1 {:g} 91 {:d} -{:d}'.format(mesonID,q.bf,q.id,q.id) for q in theQuarks if q.bf>0]
             lines += ['{:d}:addChannel = 1 {:g} 91 22 22'.format(mesonID,self.brGamma*(1.0-self.rinv))]
-            
+
 
         return lines
 
@@ -230,7 +230,7 @@ class svjHelper(object):
             if (mesonID == 4900113):
                br = 1.0  
                decay_prod_1 = 4900211
-               decay_prod_2 = -4900211
+               decay_prod_2 = 4900211
             if (mesonID == 4900213):
                br = 1.0  
                decay_prod_1 = 4900111
@@ -421,36 +421,36 @@ class svjHelper(object):
             version = {1},
             year = {2024}
          }
-         
+
          """
          
             
         citation_string+="""@article{Cazzaniga:2024mmv,
-        author = \"Cazzaniga, Cesare and Russo, Alessandro and Sitti, Emre and de Cosa, Annapaola\",
-        title = \"{Phenomenology of photons-enriched semi-visible jets}\",
-        eprint = \"2407.08276\",
-        archivePrefix = \"arXiv\",
-        primaryClass = \"hep-ph\",
-        doi = \"10.1140/epjc/s10052-024-13613-9\",
-        journal = \"Eur. Phys. J. C\",
-        volume = \"84\",
-        number = \"11\",
-        pages = \"1223\",
-        year = \"2024\"
-    }
+            author = \"Cazzaniga, Cesare and Russo, Alessandro and Sitti, Emre and de Cosa, Annapaola\",
+            title = \"{Phenomenology of photons-enriched semi-visible jets}\",
+            eprint = \"2407.08276\",
+            archivePrefix = \"arXiv\",
+            primaryClass = \"hep-ph\",
+            doi = \"10.1140/epjc/s10052-024-13613-9\",
+            journal = \"Eur. Phys. J. C\",
+            volume = \"84\",
+            number = \"11\",
+            pages = \"1223\",
+            year = \"2024\"
+        }
         
         @article{Knapen:2021eip,
-        author         = \"Knapen, Simon and Shelton, Jessie and Xu\",
-        title          = \"{Perturbative benchmark models for a dark shower search program}\",
-        journal        = \"Phys. Rev. D\",
-        volume         = \"103\",
-        year           = \"2021\",
-        pages          = \"115013\",
-        doi            = \"10.1103/PhysRevD.103.115013\",
-        eprint         = \"2103.01238\",
-        archivePrefix  = \"arXiv\",
-        primaryClass   = \"hep-ph\"
-    }
+            author         = \"Knapen, Simon and Shelton, Jessie and Xu\",
+            title          = \"{Perturbative benchmark models for a dark shower search program}\",
+            journal        = \"Phys. Rev. D\",
+            volume         = \"103\",
+            year           = \"2021\",
+            pages          = \"115013\",
+            doi            = \"10.1103/PhysRevD.103.115013\",
+            eprint         = \"2103.01238\",
+            archivePrefix  = \"arXiv\",
+            primaryClass   = \"hep-ph\"
+        }
         
         """
         

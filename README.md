@@ -16,7 +16,9 @@ The code takes the following arguments:
     
 An example card is provided in the repository, in order to produce your own card use commands like:
 
-```python svjHelper.py --mZprime 3000.0 --rinv 0.3 --mPiOverLambda 1.0 --lambda 20 --brGamma 0.5 --nevents 1000```
+```
+python svjHelper.py --mZprime 3000.0 --rinv 0.3 --mPiOverLambda 1.0 --lambda 20 --brGamma 0.5 --nevents 1000
+```
 
 
 ## Citations

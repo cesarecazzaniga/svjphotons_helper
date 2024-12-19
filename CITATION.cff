@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SVJGamma models production
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Cesare
+    family-names: Cazzaniga
+    email: cesare.cazzaniga@cern.ch
+    affiliation: ETH Zurich
+    orcid: 'https://orcid.org/0000-0003-0001-7657'
+repository-code: 'https://github.com/cesarecazzaniga/svjphotons_helper'
+abstract: >-
+  Code for the production of Pythia8 cards for SVJGamma models
+  (arXiv:2407.08276)
+version: '1'
+date-released: '2024-12-19'

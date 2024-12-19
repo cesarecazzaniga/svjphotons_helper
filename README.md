@@ -26,10 +26,10 @@ python svjHelper.py --mZprime 3000.0 --rinv 0.3 --mPiOverLambda 1.0 --lambda 20 
 The code itself can be cited as
 
 ```
- @software{Cazzaniga_SVJGamma_models_production_2023,
+ @software{Cazzaniga_SVJGamma_models_production_2024,
             author = {Cazzaniga, Cesare},
             month = dec,
-            title = {{SVJGamma models production}},
+            title = {SVJGamma models production},
             url = {https://github.com/cesarecazzaniga/svjphotons_helper},
             version = {1},
             year = {2024}
